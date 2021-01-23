@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class C_mouseKlik : MonoBehaviour
 {
+    public GameObject particals;
     AudioSource artSound;
+    public Material canvas;
     
     void Start()
     {
         artSound = GetComponent<AudioSource>();
-
+        particals.SetActive(false);
     }
 
 
@@ -22,6 +24,7 @@ public class C_mouseKlik : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 100))
         {
             PrintName(hit.transform.gameObject);
+            HoverShine(hit.transform.gameObject);
         }
         
     }
@@ -30,9 +33,22 @@ public class C_mouseKlik : MonoBehaviour
     {
         print(go.name);
         if (Input.GetMouseButtonUp(0)&& go.name == gameObject.name)
-            {
+        {
             artSound.Play();
+            particals.SetActive(true);
         }
-    } 
+    }
+
+
+    void HoverShine(GameObject go)
+    {
+        if (go.name == gameObject.name)
+        {
+            canvas.color = Color.gray;
+        }
+        else
+            canvas.color = Color.white;
+
+    }
 }
 

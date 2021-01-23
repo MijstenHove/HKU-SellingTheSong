@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Playmusic : MonoBehaviour
 {
+   
      AudioSource artSound;
     // Start is called before the first frame update
     void Start()
     {
+       
         artSound = GetComponent<AudioSource>();
     }
 
@@ -23,6 +25,7 @@ public class Playmusic : MonoBehaviour
         {
             Debug.Log("dfg");
             artSound.Play();
+
 
         }
 
