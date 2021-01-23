@@ -318,13 +318,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Wat ik mis in jullie stappenplan is de focus op de eerste iteratie / je
-    eerste experiment. Wat wil je leren/t weten komen? Dat is meestal \xE9\xE9n vraag
-    of gaat over \xE9\xE9n aspect van je concept/prototype. Vanuit daar ga je verder\u2026
-    wat je leert is de input voor de volgende iteratie/het volgende experiment. Dus
-    iedere cirkel (het geheel van de drie rondjes in het lean startup schema) heeft
-    een eigen stappenplan\u2026 telkens op basis van de input uit de vorige iteratie
-    en gecombineerd met wat je nu wil leren over je idee..\n"
+  m_Text: "Hello, welcome to our online interactive exhibition! \nYou can move by
+    using the arrows on your keyboard and look around with your mouse, while you
+    can also interact with the main art piece by clicking on it. In that way, a sound
+    is being produced and some particles appear in the space of the gallery. Walk
+    through them and make sounds with your moves around the space! \r"
 --- !u!222 &434145385
 CanvasRenderer:
   m_ObjectHideFlags: 0
