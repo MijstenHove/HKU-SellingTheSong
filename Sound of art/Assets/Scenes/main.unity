@@ -634,7 +634,6 @@ GameObject:
   - component: {fileID: 543387732}
   - component: {fileID: 543387731}
   - component: {fileID: 543387735}
-  - component: {fileID: 543387737}
   - component: {fileID: 543387736}
   m_Layer: 0
   m_Name: paint (1)
@@ -910,20 +909,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &543387737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543387729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af83dcca510b28643a6637db3cf0f972, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  particals: {fileID: 1422633447}
-  canvas: {fileID: 0}
 --- !u!1 &753014173
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,12 +1686,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1422633447 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1944786187024666331, guid: 7106f8bc7f58a9a4e806c24f673e8e4d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1944786187893516092}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1667999429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,7 +2044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af83dcca510b28643a6637db3cf0f972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particals: {fileID: 1422633447}
   canvas: {fileID: 2100000, guid: e390cc6e80f665d49a4d66c9fe33f0fd, type: 2}
 --- !u!1 &2008593099
 GameObject:

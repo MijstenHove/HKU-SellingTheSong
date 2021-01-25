@@ -11,8 +11,8 @@ public class C_mouseKlik : MonoBehaviour
     
     void Start()
     {
-        artSound = GetComponent<AudioSource>();
-        particals.SetActive(false);
+        //artSound = GetComponent<AudioSource>();
+       // particals.SetActive(false);
     }
 
 
@@ -35,7 +35,7 @@ public class C_mouseKlik : MonoBehaviour
         print(go.name);
         if (Input.GetMouseButtonUp(0)&& go.name == gameObject.name)
         {
-            artSound.Play();
+           // artSound.Play();
             // particals.SetActive(true);
             SceneManager.LoadScene(2);
         }
