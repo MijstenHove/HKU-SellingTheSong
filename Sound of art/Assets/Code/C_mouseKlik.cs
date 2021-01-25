@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class C_mouseKlik : MonoBehaviour
 {
-    public GameObject particals;
-    AudioSource artSound;
+  //  public GameObject particals;
+   // AudioSource artSound;
     public Material canvas;
     
     void Start()
@@ -35,7 +36,8 @@ public class C_mouseKlik : MonoBehaviour
         if (Input.GetMouseButtonUp(0)&& go.name == gameObject.name)
         {
             artSound.Play();
-            particals.SetActive(true);
+            // particals.SetActive(true);
+            SceneManager.LoadScene(2);
         }
     }
 
