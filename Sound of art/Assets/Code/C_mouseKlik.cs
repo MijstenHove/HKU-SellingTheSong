@@ -32,7 +32,7 @@ public class C_mouseKlik : MonoBehaviour
 
     void PrintName(GameObject go) 
     {
-        print(go.name);
+       // print(go.name);
         if (Input.GetMouseButtonUp(0)&& go.name == gameObject.name)
         {
            // artSound.Play();
