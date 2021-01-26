@@ -40,7 +40,7 @@ public class ParticleAudio : MonoBehaviour
         //audioSrc.PlayOneShot(PS1, 0.3F);
         AudioClip r = AudioList[Random.Range(0, AudioList.Length)];
         //Debug.Log(r);
-        audioSrc.PlayOneShot(r, 0.3F);
+        audioSrc.PlayOneShot(r, 0.1F);
         //audioSrc.Stop();
     }
 

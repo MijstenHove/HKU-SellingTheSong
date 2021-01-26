@@ -30,6 +30,6 @@ public class StoneSound : MonoBehaviour
     {
         Debug.Log("KAAS!");
         AudioClip r = AudioList[Random.Range(0, AudioList.Length)];
-        audioSrc.PlayOneShot(r, 0.3F);
+        audioSrc.PlayOneShot(r, 0.5F);
     }
 }
