@@ -2761,7 +2761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 2100000, guid: e390cc6e80f665d49a4d66c9fe33f0fd, type: 2}
-  function: 3
+  loadSceneNumb: 2
 --- !u!4 &1955861169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 891691836479454700, guid: a60ca189ca91e654b8bfcd269b2eef0c,

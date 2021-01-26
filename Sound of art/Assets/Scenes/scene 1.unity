@@ -2113,17 +2113,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.015328
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.24455023
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.06319237
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
@@ -2168,17 +2168,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 42.12663
+      value: 38.755547
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 42.12663
+      value: 41.705364
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 42.12663
+      value: 41.705364
       objectReference: {fileID: 0}
     - target: {fileID: -3919916619192582342, guid: 000b0763929965e4e92bd1519cc0340c,
         type: 3}
@@ -5022,7 +5022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &657934111
 BoxCollider:
@@ -5093,7 +5093,7 @@ Transform:
   m_GameObject: {fileID: 657934110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17.6, y: 7.83, z: 13.3}
-  m_LocalScale: {x: 0.06984459, y: 3.9862974, z: 4.324762}
+  m_LocalScale: {x: 0.02, y: 3.9862974, z: 4.324762}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -5107,10 +5107,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 657934110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ae415ba24a7bf4db5222dab4f3c95c, type: 3}
+  m_Script: {fileID: 11500000, guid: af83dcca510b28643a6637db3cf0f972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
+  canvas: {fileID: 2100000, guid: 520827e9d3095dd4d822f10f630e01b8, type: 2}
+  loadSceneNumb: 1
 --- !u!1001 &668854955
 PrefabInstance:
   m_ObjectHideFlags: 0
