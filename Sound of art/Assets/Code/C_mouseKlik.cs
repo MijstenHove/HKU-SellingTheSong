@@ -5,18 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class C_mouseKlik : MonoBehaviour
 {
-  //  public GameObject particals;
-   // AudioSource artSound;
+
     public Material canvas;
-    
-    void Start()
-    {
-        //artSound = GetComponent<AudioSource>();
-       // particals.SetActive(false);
-    }
+    public int loadSceneNumb;
 
-
-    // Update is called once per frame
     void Update()
     {
         RaycastHit hit;
@@ -35,14 +27,23 @@ public class C_mouseKlik : MonoBehaviour
        // print(go.name);
         if (Input.GetMouseButtonUp(0)&& go.name == gameObject.name)
         {
-           // artSound.Play();
-            // particals.SetActive(true);
-            SceneManager.LoadScene(2);
+            if (loadSceneNumb == 0)
+            {//menu
+                SceneManager.LoadScene(0);
+            }
+            if (loadSceneNumb == 1)
+            {//main
+                SceneManager.LoadScene(1);
+            }
+            if (loadSceneNumb == 2)
+            {//scene1
+                SceneManager.LoadScene(2);
+            }
         }
     }
 
 
-
+    // change color
     void HoverShine(GameObject go)
     {
         if (go.name == gameObject.name)
