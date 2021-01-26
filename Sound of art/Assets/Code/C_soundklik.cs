@@ -1,18 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class C_mouseKlik : MonoBehaviour
+public class C_soundklik : MonoBehaviour
 {
-  //  public GameObject particals;
-   // AudioSource artSound;
-    public Material canvas;
-    
+    //  public GameObject particals;
+     AudioSource artSound;
+     public Material canvas;
+
     void Start()
     {
-        //artSound = GetComponent<AudioSource>();
-       // particals.SetActive(false);
+        artSound = GetComponent<AudioSource>();
+       // canvas = GetComponent<Material>();
+        // particals.SetActive(false);
     }
 
 
@@ -27,17 +27,17 @@ public class C_mouseKlik : MonoBehaviour
             PrintName(hit.transform.gameObject);
             HoverShine(hit.transform.gameObject);
         }
-        
+
     }
 
-    void PrintName(GameObject go) 
+    void PrintName(GameObject go)
     {
-       // print(go.name);
-        if (Input.GetMouseButtonUp(0)&& go.name == gameObject.name)
+        // print(go.name);
+        if (Input.GetMouseButtonUp(0) && go.name == gameObject.name)
         {
-           // artSound.Play();
+             artSound.Play();
             // particals.SetActive(true);
-            SceneManager.LoadScene(2);
+            
         }
     }
 
@@ -54,4 +54,3 @@ public class C_mouseKlik : MonoBehaviour
 
     }
 }
-
